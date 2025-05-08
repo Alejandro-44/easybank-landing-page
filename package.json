@@ -1,0 +1,14 @@
+{
+  "name": "easybank-landing-page",
+  "version": "1.0.0",
+  "description": "Easybank landing page challenge from Frontend mentor ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alejandro Arguello <alejandroarguelloduarte@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "sass": "^1.87.0"
+  }
+}
