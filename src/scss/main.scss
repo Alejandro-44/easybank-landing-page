@@ -1,0 +1,6 @@
+@use "./abstracts/variables" as var;
+@use "./base/typography" as font;
+
+body {
+  font-family: font.$font-stack;
+}
