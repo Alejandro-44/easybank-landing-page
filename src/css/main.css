@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Public Sans Italic";
+  src: url("../fonts/PublicSans-Italic-VariableFont_wght.ttf");
+  font-style: italic;
+  font-weight: 100 900;
+}
+@font-face {
+  font-family: "Public Sans";
+  src: url("../fonts/PublicSans-VariableFont_wght.ttf");
+  font-style: normal;
+  font-weight: 100 900;
+}
+body {
+  font-family: "Public Sans", sans-serif;
+}
+
+/*# sourceMappingURL=main.css.map */
