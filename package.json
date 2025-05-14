@@ -4,11 +4,13 @@
   "description": "Easybank landing page challenge from Frontend mentor ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass:watch": "sass --watch src/scss:src/css",
+    "sass:build": "sass src/scss:src/css"
   },
   "author": "Alejandro Arguello <alejandroarguelloduarte@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "sass": "^1.87.0"
+    "sass": "^1.88.0"
   }
 }
