@@ -1,3 +1,22 @@
+
+@font-face {
+  font-family: 'Public Sans Italic'; // Nombre que usarás en tu CSS
+  src: url('../../fonts/PublicSans-Italic-VariableFont_wght.ttf');
+  font-style: italic;
+  font-weight: 100 900; // Rango de pesos que soporta la fuente
+}
+
+@font-face {
+  font-family: 'Public Sans'; // Nombre que usarás en tu CSS
+  src: url('../../fonts/PublicSans-VariableFont_wght.ttf');
+  font-style: normal;
+  font-weight: 100 900; // Rango de pesos que soporta la fuente
+}
+
+$font-stack: 'Public Sans', sans-serif;
+$font-stack-italic: 'Public Sans Italic', sans-serif;
+$font-size: 18px;
+
 $colors: (
   dark-blue: hsl(233, 26%, 24%),
   lime-green: hsl(136, 65%, 51%),
@@ -7,5 +26,3 @@ $colors: (
   very-light-gray: hsl(0, 0%, 98%),
   white: hsl(0, 0%, 100%)
 );
-
-$fonts-path: '../fonts/';
