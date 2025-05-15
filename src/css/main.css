@@ -1,17 +1,64 @@
 @font-face {
   font-family: "Public Sans Italic";
-  src: url("../fonts/PublicSans-Italic-VariableFont_wght.ttf");
+  src: url("../../fonts/PublicSans-Italic-VariableFont_wght.ttf");
   font-style: italic;
   font-weight: 100 900;
 }
 @font-face {
   font-family: "Public Sans";
-  src: url("../fonts/PublicSans-VariableFont_wght.ttf");
+  src: url("../../fonts/PublicSans-VariableFont_wght.ttf");
   font-style: normal;
   font-weight: 100 900;
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+:root {
+  font-size: 18px;
+}
+
 body {
   font-family: "Public Sans", sans-serif;
+}
+
+h1, h2 {
+  color: hsl(233, 26%, 24%);
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: 0.75rem;
+  color: hsl(233, 8%, 62%);
+  font-weight: 400;
+}
+
+.header {
+  position: fixed;
+  height: 60px;
+  background-color: hsl(0, 0%, 100%);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav {
+  display: none;
 }
 
 /*# sourceMappingURL=main.css.map */
