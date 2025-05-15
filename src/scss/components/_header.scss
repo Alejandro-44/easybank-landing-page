@@ -1,0 +1,12 @@
+@use "sass:map" as map;
+@use "../abstracts/variables" as var;
+
+.header {
+  position: fixed;
+  height: 60px;
+  background-color: map.get(var.$colors, white);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
